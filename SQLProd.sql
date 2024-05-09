@@ -1,0 +1,10 @@
+CREATE TABLE Produtos (
+	Id INT IDENTITY (1,1)  NOT NULL,
+	Nome VARCHAR (255) NOT NULL,
+	Cor VARCHAR (50) NULL,
+	Preco DECIMAL (13, 2) NOT NULL,
+	Tamanho VARCHAR (5) NULL,
+	Genero CHAR (1) NULL
+)
+
+SELECT * FROM Produtos
